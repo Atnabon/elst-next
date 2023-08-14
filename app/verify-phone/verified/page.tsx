@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 
-const VerifyPhone: NextPage = () => {
+const Verified: NextPage = () => {
   return (
     <div className="relative bg-white w-[1920px] h-[1080px] overflow-hidden text-left text-sm text-darkslategray-700 font-poppins">
       <div className="absolute top-[0px] left-[959px] bg-white w-[960px] h-[1286px]" />
@@ -133,46 +133,23 @@ const VerifyPhone: NextPage = () => {
         </b>
       </div>
       <div className="absolute top-[0px] left-[0px] bg-gainsboro-200 w-[1920px] h-[1080px] opacity-[0.5] mix-blend-normal" />
-      <div className="absolute top-[425px] left-[1228px] w-[430px] h-[278px] overflow-hidden text-base">
-        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded bg-white shadow-[0px_0px_17px_rgba(99,_99,_99,_0.12)]" />
-        <div className="absolute h-[25.18%] w-[83.72%] top-[37.77%] right-[8.84%] bottom-[37.05%] left-[7.44%] overflow-hidden text-sm">
-          <div className="absolute h-[101.43%] w-[100.28%] top-[-0.71%] right-[-0.14%] bottom-[-0.71%] left-[-0.14%] rounded bg-white box-border border-[1px] border-solid border-gainsboro-100" />
-          <div className="absolute top-[calc(50%_+_4px)] left-[22.22%] text-xl font-material-icons text-black">
-            
-          </div>
-          <b className="absolute top-[calc(50%_+_4px)] left-[32.22%] tracking-[5px]">
-            904-229-5287
+      <div className="absolute top-[349px] left-[1224px] w-[430px] h-[382px] text-center text-base text-steelblue-200">
+        <div className="absolute top-[0px] left-[0px] w-[430px] h-[382px] overflow-hidden">
+          <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded bg-white shadow-[0px_0px_17px_rgba(99,_99,_99,_0.12)]" />
+          <b className="absolute top-[calc(50%_+_73px)] left-[27.91%]">
+            Phone Number Verified
           </b>
-          <div className="absolute top-[calc(50%_+_1px)] left-[4.72%] text-base font-roboto text-white text-center">
-            🇺🇸
-          </div>
-          <div className="absolute top-[calc(50%_-_23px)] left-[3.89%] text-xs opacity-[0.4] mix-blend-normal">
-            Phone
-          </div>
-          <b className="absolute top-[calc(50%_+_4px)] left-[12.22%]">(+1)</b>
         </div>
-        <b className="absolute top-[calc(50%_-_105px)] left-[7.44%] text-steelblue-200">
-          <p className="m-0">{`Before you continue on our site, `}</p>
-          <p className="m-0">please verify your phone number:</p>
-        </b>
-        <div className="absolute h-[16.19%] w-[83.72%] top-[71.94%] right-[8.84%] bottom-[11.87%] left-[7.44%] text-center text-white">
-          <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] overflow-hidden">
-            <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded bg-steelblue-200" />
-            <b className="absolute top-[calc(50%_-_11.5px)] left-[35.56%] text-black">
-              Verify Phone
-            </b>
-          </div>
-        </div>
-        <Image
-          className="absolute top-[3.96%] right-[2.56%] bottom-[91.73%] left-[94.65%] max-w-full overflow-hidden max-h-full opacity-[0.5] mix-blend-normal"
-          width={12}
-          height={12}
-          alt=""
-          src="/icons8delete.svg"
-        />
       </div>
+      <Image
+        className="absolute top-[464px] left-[1393px]"
+        width={100}
+        height={100}
+        alt=""
+        src="/checked-4.svg"
+      />
     </div>
   );
 };
 
-export default VerifyPhone;
+export default Verified;

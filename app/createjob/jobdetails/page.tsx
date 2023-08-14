@@ -6,7 +6,7 @@ const JobDetails: NextPage = () => {
   return (
     <div className="relative bg-white w-full h-[1755px] overflow-hidden text-left text-sm text-darkslategray-700 font-poppins">
       <div className="absolute top-[0px] left-[959px] bg-white w-[960px] h-[1286px]" />
-      <b className="absolute top-[142px] left-[1080px] text-5xl text-darkslategray-500">
+      <b className="absolute top-[142px] left-[1080px] text-[24px] text-darkslategray-500">
         Post a job
       </b>
       <div className="absolute top-[1661px] left-[1080px] w-[360px] h-[45px] text-center text-base text-white">

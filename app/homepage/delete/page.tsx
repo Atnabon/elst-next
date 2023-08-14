@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Homepage: NextPage = () => {
   return (
-    <div className="relative bg-white w-full h-[1080px] overflow-hidden text-left text-sm text-darkslategray-100 font-poppins">
-      <div className="absolute top-[0px] left-[959px] bg-white w-[960px] h-[1080px]" />    
+    <div className="relative bg-white w-full h-[1080px] overflow-hidden text-left text-sm text-darkslategray-700 font-poppins">
+      <div className="absolute top-[0px] left-[959px] bg-white w-[960px] h-[1080px]" />
       <Image
         className="absolute top-[91px] left-[0px] opacity-[0.1] mix-blend-normal"
         width={1920}
@@ -12,7 +12,6 @@ const Homepage: NextPage = () => {
         alt=""
         src="/line-21.svg"
       />
-  
       <Image
         className="absolute top-[28px] left-[19px] object-cover"
         width={172}
@@ -20,7 +19,7 @@ const Homepage: NextPage = () => {
         alt=""
         src="/staffmerge-final-v201@2x.png"
       />
-      <div className="absolute top-[24px] left-[1737px] w-[162px] h-[46px]">
+      <div className="absolute top-[24px] left-[1737px] w-[162px] h-[46px] text-darkslategray-100">
         <div className="absolute top-[0px] left-[0.5px] w-[161px] h-[46px] overflow-hidden">
           <Image
             className="absolute top-[0%] right-[70.5%] bottom-[0%] left-[0.31%] max-w-full overflow-hidden max-h-full object-cover"
@@ -82,7 +81,7 @@ const Homepage: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[39px] left-[1218px] text-xl font-ionicons hidden">
+      <div className="absolute top-[39px] left-[1218px] text-xl font-ionicons text-darkslategray-100 hidden">
         
       </div>
       <Image
@@ -92,7 +91,7 @@ const Homepage: NextPage = () => {
         alt=""
         src="/icons8notification.svg"
       />
-      <div className="absolute top-[113px] left-[610px] w-[701px] h-[262px] overflow-hidden text-darkslategray-700">
+      <div className="absolute top-[113px] left-[610px] w-[701px] h-[262px] overflow-hidden">
         <b className="absolute top-[calc(50%_-_131px)] left-[0.14%] text-base">
           Senior UI Designer needed
         </b>
@@ -163,7 +162,7 @@ const Homepage: NextPage = () => {
           src="/line.svg"
         />
       </div>
-      <div className="absolute top-[395px] left-[610px] w-[701px] h-[262px] overflow-hidden text-darkslategray-700">
+      <div className="absolute top-[395px] left-[610px] w-[701px] h-[262px] overflow-hidden">
         <b className="absolute top-[calc(50%_-_131px)] left-[0.14%] text-base">
           Senior UI Designer needed
         </b>
@@ -241,11 +240,80 @@ const Homepage: NextPage = () => {
         alt=""
         src="/group-5.svg"
       />
+      <Image
+        className="absolute top-[398px] left-[1237px] "
+        width={17}
+        height={16}
+        alt=""
+        src="/002passion.svg"
+      />
       <div className="absolute top-[21px] left-[1521px] w-[120px] h-[50px] overflow-hidden text-center text-white">
         <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-6xl bg-steelblue-200" />
         <div className="absolute top-[calc(50%_-_10px)] left-[25%] font-medium">
           Post Job
         </div>
+      </div>
+      <div className="absolute top-[391px] left-[1177px] w-[134px] h-[109px] text-xs">
+        <div className="absolute top-[0px] left-[0px] rounded bg-white shadow-[0px_0px_17px_rgba(99,_99,_99,_0.12)] w-[134px] h-[109px]" />
+        <Image
+          className="absolute top-[12px] left-[120px] w-[4.36px] h-4 opacity-[0.37] mix-blend-normal"
+          width={4.36}
+          height={16}
+          alt=""
+          src="/icons8menu-vertical.svg"
+        />
+        <div className="absolute top-[12px] left-[11px] w-[73px] h-[17px] overflow-hidden">
+          <b className="absolute top-[calc(50%_-_8.5px)] left-[27.4%]">
+            Edit Post
+          </b>
+          <Image
+            className="absolute h-[64.71%] w-[15.07%] top-[23.53%] right-[84.93%] bottom-[11.76%] left-[0%] max-w-full overflow-hidden max-h-full"
+            width={11}
+            height={11}
+            alt=""
+            src="/icons8edit.svg"
+          />
+        </div>
+        <div className="absolute top-[49px] left-[11px] w-[69px] h-[17px]">
+          <div className="absolute top-[0px] left-[21px] w-12 h-[17px] overflow-hidden">
+            <b className="absolute top-[calc(50%_-_8.5px)] left-[0%]">
+              Archive
+            </b>
+          </div>
+          <Image
+            className="absolute top-[2px] left-[0px]"
+            width={13}
+            height={13}
+            alt=""
+            src="/icons8process.svg"
+          />
+        </div>
+        <div className="absolute top-[83px] left-[32px] w-10 h-[17px] text-salmon">
+          <div className="absolute top-[0px] left-[0px] w-10 h-[17px] overflow-hidden">
+            <b className="absolute top-[calc(50%_-_8.5px)] left-[0%]">Delete</b>
+          </div>
+        </div>
+        <Image
+          className="absolute top-[39px] left-[-0.5px] w-[135px] h-px opacity-[0.1] mix-blend-normal"
+          width={134}
+          height={1}
+          alt=""
+          src="/line-3.svg"
+        />
+        <Image
+          className="absolute top-[74px] left-[-0.5px] opacity-[0.1] mix-blend-normal"
+          width={134}
+          height={1}
+          alt=""
+          src="/line-3.svg"
+        />
+        <Image
+          className="absolute top-[84px] left-[11px]"
+          width={14}
+          height={14}
+          alt=""
+          src="/icons8remove.svg"
+        />
       </div>
     </div>
   );

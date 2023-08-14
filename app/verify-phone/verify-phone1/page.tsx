@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const VerifyPhone: NextPage = () => {
   return (
-    <div className="relative bg-white w-[1920px] h-[1080px] overflow-hidden text-left text-sm text-darkslategray-700 font-poppins">
+    <div className="relative bg-white w-full h-[1080px] overflow-hidden text-left text-sm text-darkslategray-700 font-poppins">
       <div className="absolute top-[0px] left-[959px] bg-white w-[960px] h-[1286px]" />
       <b className="absolute top-[142px] left-[1080px] text-5xl text-darkslategray-500">
         Post a job
@@ -43,7 +43,7 @@ const VerifyPhone: NextPage = () => {
           alt=""
           src="/image@2x.png"
         />
-        <b className="absolute top-[calc(50%_-_414px)] left-[19.79%] leading-[83px]">
+        <b className="absolute top-[calc(50%_-_414px)] left-[19.79%] leading-[83px] text-[42px]">
           Connect. Merge. Work
         </b>
       </div>
@@ -133,43 +133,45 @@ const VerifyPhone: NextPage = () => {
         </b>
       </div>
       <div className="absolute top-[0px] left-[0px] bg-gainsboro-200 w-[1920px] h-[1080px] opacity-[0.5] mix-blend-normal" />
-      <div className="absolute top-[425px] left-[1228px] w-[430px] h-[278px] overflow-hidden text-base">
-        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded bg-white shadow-[0px_0px_17px_rgba(99,_99,_99,_0.12)]" />
-        <div className="absolute h-[25.18%] w-[83.72%] top-[37.77%] right-[8.84%] bottom-[37.05%] left-[7.44%] overflow-hidden text-sm">
-          <div className="absolute h-[101.43%] w-[100.28%] top-[-0.71%] right-[-0.14%] bottom-[-0.71%] left-[-0.14%] rounded bg-white box-border border-[1px] border-solid border-gainsboro-100" />
-          <div className="absolute top-[calc(50%_+_4px)] left-[22.22%] text-xl font-material-icons text-black">
-            
-          </div>
-          <b className="absolute top-[calc(50%_+_4px)] left-[32.22%] tracking-[5px]">
-            904-229-5287
-          </b>
-          <div className="absolute top-[calc(50%_+_1px)] left-[4.72%] text-base font-roboto text-white text-center">
-            🇺🇸
-          </div>
-          <div className="absolute top-[calc(50%_-_23px)] left-[3.89%] text-xs opacity-[0.4] mix-blend-normal">
-            Phone
-          </div>
-          <b className="absolute top-[calc(50%_+_4px)] left-[12.22%]">(+1)</b>
-        </div>
-        <b className="absolute top-[calc(50%_-_105px)] left-[7.44%] text-steelblue-200">
-          <p className="m-0">{`Before you continue on our site, `}</p>
-          <p className="m-0">please verify your phone number:</p>
-        </b>
-        <div className="absolute h-[16.19%] w-[83.72%] top-[71.94%] right-[8.84%] bottom-[11.87%] left-[7.44%] text-center text-white">
-          <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] overflow-hidden">
-            <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded bg-steelblue-200" />
-            <b className="absolute top-[calc(50%_-_11.5px)] left-[35.56%] text-black">
-              Verify Phone
+      <div className="absolute top-[349px] left-[1224px] w-[430px] h-[382px] overflow-hidden text-center text-base">
+        <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] overflow-hidden text-left">
+          <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded bg-white shadow-[0px_0px_17px_rgba(99,_99,_99,_0.12)]" />
+          <div className="absolute h-[18.32%] w-[83.72%] top-[27.49%] right-[8.84%] bottom-[54.19%] left-[7.44%] overflow-hidden text-sm">
+            <div className="absolute h-[101.43%] w-[100.28%] top-[-0.71%] right-[-0.14%] bottom-[-0.71%] left-[-0.14%] rounded bg-white box-border border-[1px] border-solid border-gainsboro-100" />
+            <b className="absolute top-[calc(50%_+_4px)] left-[12.5%] tracking-[20px]">
+              - - - - - -
             </b>
+            <div className="absolute top-[calc(50%_-_23px)] left-[3.89%] text-xs opacity-[0.4] mix-blend-normal">
+              Verification code
+            </div>
+          </div>
+          <b className="absolute top-[calc(50%_-_157px)] left-[7.44%] text-steelblue-200">
+            <p className="m-0">{`Before you continue on our site, `}</p>
+            <p className="m-0">please verify your phone number:</p>
+          </b>
+          <div className="absolute h-[11.78%] w-[83.72%] top-[52.36%] right-[8.84%] bottom-[35.86%] left-[7.44%] text-center text-white">
+            <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] overflow-hidden">
+              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded bg-steelblue-200" />
+              <b className="absolute top-[calc(50%_-_11.5px)] left-[35.56%]">
+                Verify Phone
+              </b>
+            </div>
           </div>
         </div>
         <Image
-          className="absolute top-[3.96%] right-[2.56%] bottom-[91.73%] left-[94.65%] max-w-full overflow-hidden max-h-full opacity-[0.5] mix-blend-normal"
+          className="absolute top-[2.9%] right-[2.58%] bottom-[94%] left-[94.67%] max-w-full overflow-hidden max-h-full"
           width={12}
           height={12}
           alt=""
-          src="/icons8delete.svg"
+          src="/path.svg"
         />
+        <div className="absolute h-[11.78%] w-[83.72%] top-[79.84%] right-[8.14%] bottom-[8.38%] left-[8.14%] overflow-hidden text-mini text-steelblue-200">
+          <div className="absolute h-[102.22%] w-[100.28%] top-[-1.11%] right-[-0.14%] bottom-[-1.11%] left-[-0.14%] rounded bg-white box-border border-[1px] border-solid border-steelblue-200" />
+          <b className="absolute top-[calc(50%_-_10.5px)] left-[21.94%]">{`Resend Phone Verification `}</b>
+        </div>
+        <div className="absolute top-[calc(50%_+_72px)] left-[19.88%] text-sm text-darkslategray-300">
+          Didn’t receive the phone verification?
+        </div>
       </div>
     </div>
   );
